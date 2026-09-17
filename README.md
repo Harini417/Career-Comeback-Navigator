@@ -188,6 +188,9 @@ Transferable Skills    Skill Gap Analysis
                   ▼
           Final Career Report
 ---
+```
+
+---
 
 ## 📸 Application Screenshots
 
@@ -271,3 +274,5 @@ Try the application here:
 
 **Harini M**  
 Computer Science and Engineering Student
+
+
