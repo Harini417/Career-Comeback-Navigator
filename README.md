@@ -1,160 +1,179 @@
-# Career-Comeback-Navigator
-A GenAI-powered career guidance application for women returning to work after a career break, built using AWS PartyRock.
-
 # 🌸 Career Comeback Navigator for Women
 
-> A Generative AI-powered career guidance application designed to support women returning to work after a career break.
+> A Generative AI-powered career guidance application designed to help women restart their professional journey after a career break.
 
 ## 📌 Project Overview
 
-**Career Comeback Navigator for Women** is a Generative AI application built using **AWS PartyRock**. It provides personalized career guidance to women who are planning to restart their professional journey after taking a career break.
+**Career Comeback Navigator for Women** is a Generative AI application built using **AWS PartyRock**.
 
-The application considers a user's background, previous experience, skills, interests, and career goals to provide relevant career suggestions and guidance.
+The application is designed specifically for women returning to work after a career break due to caregiving, personal reasons, family responsibilities, or other circumstances.
+
+Instead of providing generic career advice, the application analyzes the user's:
+
+- Previous job or field
+- Years of experience
+- Career break duration
+- Reason for the career break
+- Current skills
+- Experience gained during the career break
+- Target career or job role
+- Available learning time
+- Learning budget
+- Confidence level
+
+Based on this information, it generates a personalized **Career Comeback Roadmap**.
+
+---
 
 ## 🎯 Problem Statement
 
-Women returning to the workforce after a career break may face challenges such as:
+Returning to work after a career break can be challenging.
 
-* Difficulty identifying suitable career opportunities
-* Skill gaps caused by changes in industry requirements
-* Uncertainty about which skills to learn
-* Lack of personalized career guidance
-* Difficulty planning a structured career comeback
+Women may face difficulties such as:
+
+- Identifying transferable skills from previous experience
+- Understanding current skill requirements
+- Finding suitable career roles
+- Identifying skill gaps
+- Deciding what to learn and where to learn it
+- Managing learning within a limited time and budget
+- Preparing for a structured career comeback
+
+There is a need for an accessible and personalized solution that can guide users through these challenges.
+
+---
 
 ## 💡 Proposed Solution
 
-Career Comeback Navigator uses **Generative AI** to provide personalized and interactive career guidance.
+**Career Comeback Navigator** uses Generative AI to analyze a user's career profile and generate a personalized career comeback plan.
 
-Users can provide information about their career background and goals, and the application generates guidance tailored to their situation.
+The application identifies existing strengths, analyzes skill gaps, suggests suitable career paths, recommends learning resources, and provides a structured roadmap for returning to work.
 
-The goal is to make the career-restart process more structured, accessible, and personalized.
+---
 
 ## ✨ Key Features
 
-* 👩‍💼 Personalized career guidance
-* 🎯 Career direction based on individual goals
-* 🧠 AI-powered recommendations
-* 📚 Skill and learning guidance
-* 🔄 Career comeback support
-* 💬 Interactive AI-generated responses
-* 🌱 Support for women restarting their careers
+### 1. 📝 Career Assessment
 
-## 🤖 AI & Technology
+The user provides information about their professional background, career break, skills, experience, target role, learning time, budget, and confidence level.
+
+### 2. ✂️ Transferable Skills Analysis
+
+The application identifies skills that the user already possesses and explains how those skills can be useful in their target career.
+
+For example, skills gained through tailoring and household management can be mapped to areas such as:
+
+- Attention to detail
+- Time management
+- Budget planning
+- Organization
+- Problem solving
+- Client understanding
+- Pattern execution
+- Fabric knowledge
+
+### 3. 📊 Skill Gap Analysis
+
+The application categorizes the skills that need to be developed into:
+
+- 🟢 Low Effort Gaps
+- 🟡 Medium Effort Gaps
+- 🔴 High Effort Gaps
+
+It also provides an estimated time range for developing these skills.
+
+### 4. 💼 Career Role Recommendations
+
+The application identifies suitable career roles based on the user's existing skills, experience, target role, and skill gaps.
+
+For each recommended role, it can provide information such as:
+
+- Salary range
+- Growth opportunities
+- Required skills
+- Difficulty level
+- Estimated entry time
+- Fit with the user's existing experience
+
+### 5. 📚 Learning Resource Recommendations
+
+The application recommends learning resources according to the user's available budget.
+
+Resources may include:
+
+- YouTube
+- Canva Design School
+- Coursera
+- Pinterest
+- Behance
+- Vogue India / Elle India
+- NIFT learning content
+- Other relevant learning platforms
+
+### 6. 🗺️ Personalized Career Comeback Roadmap
+
+The application combines the assessment results into a personalized roadmap.
+
+The roadmap connects the user's existing career background with their target career and provides actionable guidance for moving forward.
+
+### 7. 📋 Final Career Report
+
+The application generates a final career report containing recommended career paths and personalized guidance based on the user's assessment.
+
+---
+
+## 🤖 AI Technology
 
 ### Generative AI
 
-The application uses **Generative AI** to understand user inputs and generate personalized career guidance.
+Generative AI is used to analyze the information provided by the user and generate personalized career guidance.
+
+The AI transforms the user's career background, existing skills, career-break experience, goals, available time, and budget into structured recommendations.
 
 ### AWS PartyRock
 
-**AWS PartyRock** was used to build and deploy the interactive Generative AI application.
+The application was created and deployed using **AWS PartyRock**, a platform for building Generative AI applications.
 
-### Amazon Bedrock
-
-PartyRock provides access to foundation models through **Amazon Bedrock**, enabling the application to generate AI-powered responses.
+---
 
 ## 🛠️ Technologies Used
 
-| Technology         | Purpose                             |
-| ------------------ | ----------------------------------- |
-| AWS PartyRock      | Application development and hosting |
-| Generative AI      | Personalized career guidance        |
-| Amazon Bedrock     | Foundation model capabilities       |
-| Prompt Engineering | Guiding AI responses                |
+| Technology | Purpose |
+|---|---|
+| AWS PartyRock | Building and hosting the Generative AI application |
+| Generative AI | Personalized career analysis and recommendations |
+| Prompt Engineering | Designing the AI instructions and outputs |
+
+---
 
 ## ⚙️ How It Works
 
 ```text
-User
-  ↓
-Provides Career Information
-  ↓
-AWS PartyRock Application
-  ↓
-Generative AI Processing
-  ↓
-Personalized Career Guidance
-  ↓
-Skills / Career Recommendations
-```
-
-### Workflow
-
-1. The user enters their career-related information.
-2. The application processes the provided information using Generative AI.
-3. The AI analyzes the user's background, skills, interests, and goals.
-4. The application generates personalized career guidance.
-5. The user receives recommendations that can help plan their career comeback.
-
-## 📸 Screenshots
-
-### 🏠 Application Interface
-
-Add your application screenshot here.
-
-```text
-![Application Interface](screenshots/home.png)
-```
-
-### 📝 User Input
-
-Add your input-screen screenshot here.
-
-```text
-![User Input](screenshots/input.png)
-```
-
-### 🤖 AI-Generated Guidance
-
-Add your AI-output screenshot here.
-
-```text
-![AI Generated Guidance](screenshots/result.png)
-```
-
-## 🌐 Live Demo
-
-Try the live application:
-
-**[Career Comeback Navigator – AWS PartyRock](https://partyrock.aws/u/harini417/uYzVDk373/Career-Comeback-Navigator-for-Women)**
-
-## 🎯 Project Objectives
-
-* Help women identify suitable career directions after a career break.
-* Provide personalized AI-based career guidance.
-* Identify areas where additional skills may be required.
-* Encourage structured career planning.
-* Make career-restart guidance easily accessible through Generative AI.
-
-## 🔮 Future Enhancements
-
-The application can be further enhanced with:
-
-* 📄 AI-powered resume analysis
-* 🔍 Job recommendation based on user profiles
-* 📊 Skill-gap assessment
-* 📚 Personalized learning roadmaps
-* 🎤 AI-based interview preparation
-* 💼 Job-market integration
-* 📈 Career progress tracking
-
-## 🏆 Project Highlights
-
-* Built using **AWS PartyRock**
-* Uses **Generative AI**
-* Designed for a real-world social and career challenge
-* Provides personalized rather than generic career guidance
-* Demonstrates practical use of AI for career development
-
-## 👩‍💻 Author
-
-**Harini M**
-
-Third-Year Computer Science and Engineering Student
-
----
-
-⭐ If you find this project interesting, feel free to explore the live demo!
-
-
-[Try Career Comeback Navigator](https://partyrock.aws/u/harini417/uYzVDk373/Career-Comeback-Navigator-for-Women)
+                USER
+                  │
+                  ▼
+        ┌───────────────────┐
+        │ Career Assessment │
+        └─────────┬─────────┘
+                  │
+                  ▼
+        ┌───────────────────┐
+        │ Profile Analysis  │
+        └─────────┬─────────┘
+                  │
+        ┌─────────┴─────────┐
+        ▼                   ▼
+Transferable Skills    Skill Gap Analysis
+        │                   │
+        └─────────┬─────────┘
+                  ▼
+        Career Role Recommendations
+                  │
+                  ▼
+        Learning Resources
+                  │
+                  ▼
+        Career Comeback Roadmap
+                  │
+                  ▼
+          Final Career Report
