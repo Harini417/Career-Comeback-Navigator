@@ -1,7 +1,10 @@
 # 🌸 Career Comeback Navigator for Women
 
 > A Generative AI-powered career guidance application designed to help women restart their professional journey after a career break.
+> 
+## 🚀 Live Demo
 
+👉 [Career Comeback Navigator for Women](https://partyrock.aws/u/harini417/uYzVDk373/Career-Comeback-Navigator-for-Women)
 ## 📌 Project Overview
 
 **Career Comeback Navigator for Women** is a Generative AI application built using **AWS PartyRock**.
@@ -220,13 +223,6 @@ Transferable Skills    Skill Gap Analysis
 
 ---
 
-## 🚀 Live Demo
-
-Try the application here:
-
-[Career Comeback Navigator for Women](https://partyrock.aws/u/harini417/uYzVDk373/Career-Comeback-Navigator-for-Women)
-
----
 
 ## 🎯 Project Objectives
 
