@@ -187,3 +187,87 @@ Transferable Skills    Skill Gap Analysis
                   │
                   ▼
           Final Career Report
+---
+
+## 📸 Application Screenshots
+
+### 🏠 Career Comeback Navigator
+![Career Comeback Navigator](screenshots/home.png)
+
+### 📝 Career Assessment
+![Career Assessment](screenshots/career-assessment.png)
+
+### 👤 Career Profile
+![Career Profile](screenshots/profile.png)
+
+### ✂️ Transferable Skills Analysis
+![Transferable Skills](screenshots/transferable-skills.png)
+
+### 📊 Skill Gap Analysis
+![Skill Gap Analysis](screenshots/skill-gap-analysis.png)
+
+### 💼 Career Role Recommendations
+![Career Recommendations](screenshots/career-recommendations.png)
+
+### 📚 Recommended Learning Resources
+![Learning Resources](screenshots/learning-resources.png)
+
+### 📋 Final Career Report
+![Final Career Report](screenshots/final-report.png)
+
+---
+
+## 🚀 Live Demo
+
+Try the application here:
+
+[Career Comeback Navigator for Women](https://partyrock.aws/u/harini417/uYzVDk373/Career-Comeback-Navigator-for-Women)
+
+---
+
+## 🎯 Project Objectives
+
+- Help women identify their existing and transferable skills
+- Identify relevant skill gaps after a career break
+- Suggest suitable career opportunities
+- Recommend learning resources based on time and budget
+- Provide a structured career comeback roadmap
+- Support a personalized return-to-work journey
+
+---
+
+## 👩‍💻 Target Users
+
+- Women returning to work after a career break
+- Professionals restarting their careers
+- Individuals looking to transition into a new career
+- People who need personalized learning and career guidance
+
+---
+
+## 🔮 Future Enhancements
+
+- Resume generation based on the recommended career path
+- Job matching and job opportunity suggestions
+- Interview preparation
+- Personalized weekly learning plans
+- Progress tracking
+- Integration with career and learning platforms
+
+---
+
+## 🌟 Project Highlights
+
+- Built using **AWS PartyRock**
+- Uses **Generative AI**
+- Uses **Prompt Engineering**
+- Provides personalized career guidance
+- Focuses on career re-entry after a break
+- Converts user information into a structured career roadmap
+
+---
+
+## 👩‍💻 Author
+
+**Harini M**  
+Computer Science and Engineering Student
