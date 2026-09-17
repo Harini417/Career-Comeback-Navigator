@@ -61,7 +61,7 @@ The user provides information about their professional background, career break,
 
 The application identifies skills that the user already possesses and explains how those skills can be useful in their target career.
 
-For example, skills gained through tailoring and household management can be mapped to areas such as:
+Examples include:
 
 - Attention to detail
 - Time management
@@ -80,13 +80,13 @@ The application categorizes the skills that need to be developed into:
 - 🟡 Medium Effort Gaps
 - 🔴 High Effort Gaps
 
-It also provides an estimated time range for developing these skills.
+It also provides estimated time ranges for developing these skills.
 
 ### 4. 💼 Career Role Recommendations
 
 The application identifies suitable career roles based on the user's existing skills, experience, target role, and skill gaps.
 
-For each recommended role, it can provide information such as:
+The recommendations can include:
 
 - Salary range
 - Growth opportunities
@@ -99,7 +99,7 @@ For each recommended role, it can provide information such as:
 
 The application recommends learning resources according to the user's available budget.
 
-Resources may include:
+Examples include:
 
 - YouTube
 - Canva Design School
@@ -108,13 +108,12 @@ Resources may include:
 - Behance
 - Vogue India / Elle India
 - NIFT learning content
-- Other relevant learning platforms
 
 ### 6. 🗺️ Personalized Career Comeback Roadmap
 
 The application combines the assessment results into a personalized roadmap.
 
-The roadmap connects the user's existing career background with their target career and provides actionable guidance for moving forward.
+It connects the user's existing background with their target career and provides actionable guidance for moving forward.
 
 ### 7. 📋 Final Career Report
 
@@ -134,6 +133,17 @@ The AI transforms the user's career background, existing skills, career-break ex
 
 The application was created and deployed using **AWS PartyRock**, a platform for building Generative AI applications.
 
+### Prompt Engineering
+
+Prompts are designed to guide the AI to produce structured outputs such as:
+
+- Transferable skills
+- Skill gaps
+- Career recommendations
+- Learning resources
+- Career roadmap
+- Final career report
+
 ---
 
 ## 🛠️ Technologies Used
@@ -142,7 +152,7 @@ The application was created and deployed using **AWS PartyRock**, a platform for
 |---|---|
 | AWS PartyRock | Building and hosting the Generative AI application |
 | Generative AI | Personalized career analysis and recommendations |
-| Prompt Engineering | Designing the AI instructions and outputs |
+| Prompt Engineering | Designing structured AI responses |
 
 ---
 
